@@ -1,0 +1,9 @@
+<svg width="180" height="50" viewBox="0 0 180 50" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { font-family: 'Arial', sans-serif; font-weight: bold; }
+    .prime { fill: #8B0000; }
+    .tiles { fill: #DC143C; }
+  </style>
+  <text class="logo-text prime" x="10" y="35" font-size="28">PRIME</text>
+  <text class="logo-text tiles" x="95" y="35" font-size="28">TILES</text>
+</svg>

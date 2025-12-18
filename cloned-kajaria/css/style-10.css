@@ -1,0 +1,165 @@
+/* Override navbar link hover color */
+.navbar-nav .nav-item .nav-link:hover,
+.navbar-nav .nav-item .dropdown-toggle:hover,
+.navbar-nav .nav-item .nav-link:focus,
+.navbar-nav .nav-item .dropdown-toggle:focus {
+    color: inherit !important;
+    /* This will maintain the original text color */
+}
+
+/* For the right menu items */
+.right-menu .nav-item .nav-link:hover,
+.right-menu .nav-item .dropdown-toggle:hover,
+.right-menu .nav-item .nav-link:focus,
+.right-menu .nav-item .dropdown-toggle:focus {
+    color: inherit !important;
+}
+
+/* For dropdown items */
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    color: inherit !important;
+    background-color: rgba(0, 0, 0, 0.05);
+    /* Light gray background on hover instead of changing text color */
+}
+
+/* For mega menu items */
+.mega-menu .list-group-item:hover,
+.mega-menu .list-group-item:focus {
+    color: inherit !important;
+}
+
+.locate_bg {
+    background-color: var(--primary);
+}
+
+.locate_text {
+    color: white !important;
+}
+
+.locate_find_icon {
+    color: var(--primary) !important;
+    background-color: var(--bs-white) !important;
+    border-radius: 100%;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    text-align: center;
+}
+
+.locate_line_custom {
+    opacity: 0.4;
+}
+
+.locate_col_custom {
+    border-right: 1px solid rgba(194, 204, 214, 0.4) !important;
+}
+
+.locate_heading {
+    background-color: var(--primary);
+    padding-top: 32px;
+
+}
+
+.locate_container_custom {
+    padding-right: calc(var(--bs-gutter-x)* .67) !important;
+    padding-left: calc(var(--bs-gutter-x)* .67) !important;
+}
+
+
+.locate_heading br {
+    display: inline;
+}
+
+.mobile-carousel {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.mobile-carousel .carousel-grid {
+    padding: 10px;
+}
+
+.mobile-carousel .slick-dots {
+    bottom: -25px;
+}
+
+.mobile-carousel .slick-prev,
+.mobile-carousel .slick-next {
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.mobile-carousel .slick-prev {
+    left: -5px;
+}
+
+.mobile-carousel .slick-next {
+    right: -5px;
+}
+
+.locate_heading_parent {
+    background-color: transparent !important;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+ }
+ 
+ .play-icon {
+    pointer-events: none;
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0 0 5px rgba(0,0,0,0.5);
+ }
+ 
+.tiles_custom_font{
+    font-family: 'layfort-regular';
+    font-weight: 100 !important;
+    min-height: 50px;
+    line-height: 1.3;
+    white-space: normal;
+}
+
+
+
+@media (max-width: 767px) {
+    .locate_heading {
+        white-space: normal !important;
+        width: 22rem;
+        min-width: 100%;
+    }
+
+    .d-sm-none {
+        display: block !important;
+    }
+
+    .locate_container_custom {
+        padding-right: calc(var(--bs-gutter-x) * .5) !important;
+        padding-left: calc(var(--bs-gutter-x) * .5) !important;
+    }
+
+    .locate_line_custom {
+        margin-top: 3em !important;
+        margin-bottom: 0em !important;
+    }
+    .tiles_custom_font{
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .locate_heading {
+        white-space: normal !important;
+        width: 100%;
+        min-width: unset;
+    }
+}
+
+
+.tab-content .row #contact_form .error,
+.modal-content .modal-body #enquire_form .error,
+.form-container #careers-form .form-column .error{
+    color: red;
+}
